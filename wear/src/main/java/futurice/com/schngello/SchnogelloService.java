@@ -168,8 +168,8 @@ public class SchnogelloService extends CanvasWatchFaceService {
             canvas.drawBitmap(backgroundBitmap, 0, 0, null);
 
             // minute and hour variables for easy testing (switch to seconds and minutes)
-            long minute = time.second;
-            int hour = time.minute;
+            long minute = time.minute;
+            int hour = time.second;
 
             float minRot = minute * 6.0f;
             float hourRot = hour * 30.0f + (0.5f * minute);
